@@ -4,9 +4,9 @@ import urllib2
 import time
 
 db = mysql.connector.connect(
-  host="192.168.64.2",
-  user="root",
-  password="KUmu20@#",
+  host="", #hostip
+  user="", #hostname
+  password="", #host password
   database="application"
 )
 
